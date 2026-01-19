@@ -20,5 +20,7 @@ namespace WebGestion.Modeles
             Password = password;
             Role = role;
         }
+        public User() {
+        }
     }
 }
