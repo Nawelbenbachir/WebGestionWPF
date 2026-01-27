@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="WebGestion.Views.MakeUserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WebGestion.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Créer un nouvel utilisateur" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Nom d'utilisateur:" Margin="0" />
+        <TextBox Grid.Row="2" Grid.Column="0" Margin="0 5 5 5"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Adresse e-mail:" Margin="0"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="0 5 5 0"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Mot de passe:" Margin="0"/>
+        <TextBox Grid.Row="4" Grid.Column="0" Margin="0 5 5 0"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="Confirmer le mot de passe:" Margin="0"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Margin="0 5 5 5"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Statut:" Margin="0"/>
+        <TextBox Grid.Row="6" Grid.Column="0" Margin="0 5 5 5"/>
+        <Button Grid.Row="7" Grid.Column="0" Content="Créer l'utilisateur" Margin="5 5 0 0"/>
+        <Button Grid.Row="7" Grid.Column="1" Content="Annuler" Margin="0 0 0 5"/>
+    </Grid>
+</UserControl>
