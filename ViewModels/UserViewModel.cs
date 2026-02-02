@@ -16,7 +16,7 @@ namespace WebGestion.ViewModels
         private string _password;
         private string _email;
         private string _statut;
-
+        private long _id { get; }
         public string Username
         {
             get => _username;

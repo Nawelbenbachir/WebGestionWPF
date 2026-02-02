@@ -8,6 +8,7 @@ namespace WebGestion.Modeles
 {
     class User
     {
+        public long Id { get; }
         public string Nom {  get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
@@ -15,6 +16,7 @@ namespace WebGestion.Modeles
         public int Last_active_societe_id { get; set; }
 
         public User(string nom,string email, string password, string role) {
+            Id= DateTime.Now.Ticks;
             Nom = nom;
             Email = email;
             Password = password;
