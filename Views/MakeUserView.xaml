@@ -59,8 +59,8 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Content="Créer l'utilisateur" Margin="0 10 10 0"/>
-            <Button Grid.Column="1" Content="Annuler" Margin="0 10 10 0"/>
+            <Button Grid.Column="0"  Name="Annuler" Content="Créer l'utilisateur" Margin="0 10 10 0"/>
+            <Button Grid.Column="1" Name="Enregistrer" Content="Annuler" Margin="0 10 10 0"/>
         </Grid>
         
     </Grid>

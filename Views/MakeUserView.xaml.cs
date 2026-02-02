@@ -24,5 +24,7 @@ namespace WebGestion.Views
         {
             InitializeComponent();
         }
+
+       
     }
 }
